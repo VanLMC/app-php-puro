@@ -13,17 +13,15 @@ else{
     $pagina = 'home';
 }
 
-if($pagina == 'cursos'){
-    include 'views/cursos.php';  
-}
-elseif($pagina == 'alunos'){
-    include 'views/alunos.php';
-}
-elseif($pagina == 'matriculas'){
-    include 'views/matriculas.php';
-}
-else{
-    include 'views/home.php';
+switch ($pagina) {
+    case'cursos' : include 'views/cursos.php'; break;
+    case'alunos' : include 'views/alunos.php'; break;
+    case'matriculas' :include 'views/matriculas.php'; break;
+    case'inserircurso' : include  include 'views/inserirCurso.php'; break;
+    case'inseriraluno' :  include 'views/inserirAluno.php'; break;
+    case'inserirmatricula' :  include 'views/inserirMatricula.php'; break;
+    default : include 'views/home.php'; break;
+    
 }
 
 

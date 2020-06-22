@@ -1,4 +1,5 @@
 <table >
+    <a href="?pagina=inserirmatricula">Inserir nova matricula</a>
     <tr>
         <th>Aluno</th>
         <th>Curso</th>

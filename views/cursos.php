@@ -3,6 +3,7 @@
     <tr>
         <th>Curso</th>
         <th>Carga Horaria</th>
+        <th>Editar</th>
         <th>Deletar</th>
     </tr>
     
@@ -15,6 +16,7 @@
             
                   
         ?>
+        <td> <a href="?pagina=inserircurso&editar=<?php echo $linha['id']; ?>">Editar</a> </td>
         <td> <a href="deleta_curso.php?id_curso=<?php echo $linha['id']; ?>">Deletar</a> </td> </tr>
     <?php
         }

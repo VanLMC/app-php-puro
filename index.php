@@ -1,6 +1,7 @@
 <?php 
 //banco
 include 'db.php';
+include 'create_db.php';
 //cabeçalho
 include 'header.php';
 

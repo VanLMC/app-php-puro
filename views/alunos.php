@@ -13,6 +13,7 @@
             echo    '<td>'.$linha['data_nascimento'].'</td>';
 
             ?>
+            <td> <a href="?pagina=inseriraluno&editar=<?php echo $linha['id'];?>" >Editar</a></td>
             <td> <a href="deleta_aluno.php?id_aluno=<?php echo $linha['id']; ?>">Deletar</a> </td> </tr> 
     <?php
         }

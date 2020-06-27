@@ -17,8 +17,9 @@
     <?php if($linha['id'] == $_GET['editar']) { ?>
 
         <h1>Editar Curso</h1>
-    <form method="post" action="processa_curso.php">
+    <form method="post" action="edita_curso.php">
         <br>
+        <input type="hidden" name="id_curso" value="<?php echo $linha['id']; ?>" >
         <label for="">Nome Curso</label> <br>
         <input type="text" name="nome_curso" value="<?php echo $linha['nome_curso']; ?>" placeholder="insira o nome do curso"> <br>
         <label for="">Carga Horaria</label> <br>

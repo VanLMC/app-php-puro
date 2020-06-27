@@ -31,3 +31,11 @@ table {
 td {
     width: 50%;
 }
+
+form {
+    padding: 10px;
+}
+
+form > input, label {
+    margin: 10px;
+}

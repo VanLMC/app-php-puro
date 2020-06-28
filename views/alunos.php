@@ -3,6 +3,8 @@
     <tr>
         <th>Aluno</th>
         <th>Data de nascimento</th>
+        <th>Editar</th>
+        <th>Deletar</th>
     </tr>
     
     

@@ -3,13 +3,12 @@
 include 'db.php';
 
 
-$usuario = $_POST['usuario'];
-$senha = $_POST['senha'];
-
-
+$usuario = addslashes($_POST['usuario']);
+$senha = md5($_POST['senha']);
 
 
 $query = "SELECT * FROM USUARIOS WHERE usuario = '$usuario' AND senha = '$senha' ";
+
 
 $consulta = mysqli_query($conexao,$query);
 

@@ -9,8 +9,8 @@ php -S localhost:8000
 
 
 ![imagem1](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_1.png)
-![imagem2](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_3.png)
-![imagem3](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_2.png)
+![imagem2](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_2.png)
+![imagem3](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_3.png)
 ![imagem4](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_4.png)
 ![imagem5](https://github.com/VanLMC/app-php-puro/blob/master/screenshots/Screenshot_5.png)
 

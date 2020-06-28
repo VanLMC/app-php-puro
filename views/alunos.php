@@ -1,5 +1,5 @@
-<a href="?pagina=inseriraluno">inserir novo aluno</a>
-<table >
+<a class="btn btn-primary mb-5" href="?pagina=inseriraluno">inserir novo aluno</a>
+<table class="table">
     <tr>
         <th>Aluno</th>
         <th>Data de nascimento</th>

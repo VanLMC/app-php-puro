@@ -35,6 +35,17 @@ $query = "CREATE TABLE ALUNOS_CURSOS(
 
 $executar = mysqli_query($conexao,$query);
 
+
+$query = "CREATE TABLE USUARIOS(
+    id INT PRIMARY KEY auto_increment,
+    usuario varchar(255) not null unique,
+    senha varchar(255) not null
+)
+";
+
+$executar = mysqli_query($conexao,$query);
+
+
 /*
 $query = "SELECT * FROM CURSOS";
 $cursos = mysqli_query($conexao,$query);

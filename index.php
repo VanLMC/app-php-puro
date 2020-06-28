@@ -1,4 +1,6 @@
 <?php 
+
+session_start();
 //banco
 include 'db.php';
 include 'create_db.php';
@@ -7,12 +9,23 @@ include 'header.php';
 
 //conteudo da pagina
 
-if(isset($_GET['pagina'])){
-    $pagina = $_GET['pagina'];
+
+//verifica se o usuario esta logado
+if(isset($_SESSION['login']) == true){
+
+    if(isset($_GET['pagina'])){
+        $pagina = $_GET['pagina'];
+    }
+    else{
+        $pagina = 'cursos';
+    }
+
 }
-else{
+else {
+    //se nao estiver logado volta a pagina inicial (de login)
     $pagina = 'home';
 }
+
 
 switch ($pagina) {
     case'cursos' : include 'views/cursos.php'; break;

@@ -1,5 +1,5 @@
-<table >
-    <a href="?pagina=inserirmatricula">Inserir nova matricula</a>
+<table class="table">
+    <a class="btn btn-primary mb-5" href="?pagina=inserirmatricula">Inserir nova matricula</a>
     <tr>
         <th>Aluno</th>
         <th>Curso</th>

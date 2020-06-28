@@ -1,5 +1,5 @@
-<a href="?pagina=inserircurso">Inserir Novo Curso</a>
-<table >
+<a class="btn btn-primary mb-5" href="?pagina=inserircurso">Inserir Novo Curso</a>
+<table class="table">
     <tr>
         <th>Curso</th>
         <th>Carga Horaria</th>
